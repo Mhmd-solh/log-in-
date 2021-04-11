@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,537&display=swap');
+*{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: 'Arimo',sans-serif;
+    color: #fa2f57;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom left,#fa2f57,#3f5efb) ;
+    height: 90vh;
+    width: 90vw;
+
+}
+span{
+    color: #fa2f57;
+    font-size: 2rem;
+}
+hr{
+    width: 17rem;
+    
+
+}
+form{
+    background:#fff;
+    padding-top: 0.5rem;
+    margin: 0rem 20rem ;
+    border-radius: 6rem;
+    box-shadow: 0.4rem 0.4rem 2rem #333;
+    border-color: #000;
+    height: 26rem;
+    width: 25rem;
+    margin-top: 2.5rem;
+    margin-left: 23rem;
+}
+.inputbox{
+    padding-left: 20px;
+    margin: 2rem;
+    padding-right: 40px;
+}
+.inputbox h2{
+    text-align: center;
+    color: #3f5efb;
+
+}
+input{
+    color: #333;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4rem;
+    background-color: #fff;
+    color: #333;
+    margin: 2rem 5rem;
+    text-decoration: none;
+    border-style: none;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+button:hover{
+    color: #ccc;
+    background-color:#333;
+    transition: 0.4s all ease-in-out;
+}
+button::before{
+    z-index: -1;
+    height: 100%;
+    width: 0%;
+    transition: 0.2s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+button:hover::before{
+    width: 100%;
+}
+
+
+.icons{
+    text-align: center;
+    letter-spacing: 0.7rem;
+    
+}
+h3{
+    color: #3f5efb;
+}
+p{
+    color:#333;
+    font-size: 0.9rem;
+    margin-top:3.4rem;
+}
